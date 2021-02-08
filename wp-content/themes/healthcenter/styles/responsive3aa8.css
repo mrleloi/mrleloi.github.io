@@ -1,0 +1,555 @@
+/*------------------------------------------------------------------
+[ 1. Media Queries ]
+*/
+
+@media (max-width: 1200px) {
+  header.site-header .call-center-block ul li {
+    padding: 20px;
+  }
+  header.site-header .call-center-block p {
+    font-size: 24px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .navbar-default .navbar-nav > li > a[data-toggle="dropdown"]:after {
+    right: 10px;
+  }
+
+  .doctor-wrapper figure.effect-goliath {
+    height: 100%;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .extendfull,
+  .extendleft {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .extendfull, 
+  .extendright {
+    padding-right: 0;
+    margin-right:  0;
+  }
+
+  .top-header .top-header-wrapper .logo-wrapper {
+    padding-right: 15px;
+  }
+
+  .top-header .top-header-wrapper .call-center-block {
+    padding-left: 15px;
+  }
+
+  header.site-header .call-center-block ul li {
+    padding: 15px;
+  }
+  header.site-header .call-center-block p {
+    font-size: 18px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .navbar-default .navbar-nav > li > a[data-toggle="dropdown"]:after {
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .doctor-wrapper .doctor-meta,
+  .doctor-wrapper .doctor-image {
+    width: 100%;
+  }
+
+  .gg-vc-quote {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  aside.sidebar-nav {
+    margin: 40px 0;
+  }
+
+  footer.site-footer .footer-extras {
+    text-align: center;
+  }
+
+  /*Case studies*/
+  ul.case-studies-list li {
+    margin-bottom: 45px;
+  }
+  ul.case-studies-list li .entry-header .byline {
+    padding: 0 15px 10px 15px;
+  }
+  ul.case-studies-list li .entry-header .more-link {
+    padding: 10px 15px;
+  }
+
+  /*Contact form*/
+  .gg-contact-template #contact-form {
+    width: 100%;
+  }
+
+  .gg-contact-template .contact-form-wrapper {
+    border: 0;
+  }
+
+  .gg-contact-template .contact-details:not(.nav) {
+    padding: 30px;
+    border: 1px solid #ededed;
+    margin: 40px 0;
+  }
+
+  .gg-contact-template #contact-map {
+    height: 450px;
+  }
+
+  /*Appointment form*/
+  .gg-appointment-template .appointment-form-wrapper #appointment-form {
+    width: 100%;
+  }
+
+  .post-social .nav,
+  .post-social .nav > li {
+    display: inline-block;
+  }
+
+  .medical-service-quick-links.btn-group-justified {
+    table-layout: auto;
+  }
+
+  .inner-medical-service-wrapper-content .medical-subservice-wrapper.gg-first {
+    margin-bottom: 60px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .wpb_row:not(.vc_inner),
+  .vc_row.wpb_row:not(.vc_inner) {
+    padding: 60px 0;
+  }
+
+  .top-header .top-header-wrapper .logo-wrapper,
+  .top-header .top-header-wrapper .call-center-block {
+    display: table-row;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+  }
+
+  .top-header .top-header-wrapper .call-center-block ul {
+    float: none;
+    display: inline-block;
+  }
+
+  .top-header .top-header-wrapper .logo-wrapper .brand {
+    margin-bottom: 40px;
+  }
+
+  header.site-header .call-center-block ul li {
+    padding: 20px;
+  }
+  header.site-header .call-center-block p {
+    font-size: 24px;
+  }
+
+  header .navbar-nav {
+    width: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  header .navbar-header {
+    text-align: center;
+  }
+
+  header .navbar-toggle {
+    float: none;
+    display: inline-block;
+    margin: 15px 35px;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: #0548c4;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #0548c4;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #0548c4;
+  }
+
+  .navbar-default .navbar-toggle:hover .icon-bar,
+  .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px 35px;
+    background: #f7f9fc;
+    font-size: 13px;
+    font-weight: bold;
+
+    border-bottom: 1px solid #dce6f2;
+  }
+
+  .navbar-default .navbar-nav > li > a[data-toggle="dropdown"]:after {
+    margin: 0 0 0 10px;
+    top: auto; left: auto; bottom: auto; right: auto;
+    font-size: 11px;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    background-color: #0548c4;
+    color: #fff;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    text-align: center;
+    color: #686868;
+    padding: 15px 35px;
+    border-bottom: 1px solid #dce6f2;
+  }
+
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    text-align: center;
+    padding: 15px 35px;
+  }
+
+  .navbar-default .navbar-nav > li.search_form {
+    float: none;
+  }
+
+  .navbar-default .navbar-nav > li.search_form a {
+    border: 0;
+  }
+
+  .navbar-default .navbar-nav > li.search_form a i {
+    font-size: 21px;
+  }
+
+  #fullscreen-searchform input[type="search"] {
+    font-size: 30px;
+  }
+
+  header.site-header .page-meta h1 {
+    font-size: 40px;
+  }
+
+  header.site-header .page-meta {
+    padding: 60px 0;
+  }
+
+  article.post .gg-offset-content,
+  .single .gg-offset-content,
+  body.search article.page .gg-offset-content,
+  #respond {
+    padding-left: 0;
+  }
+
+  ul.el-grid li article.post .gg-audio-post-wrapper {
+    background-image: none;
+  }
+
+  ul.el-grid li article.post .gg-audio-post-wrapper header.entry-header {
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  ul.el-grid li article.post .gg-audio-post-wrapper .entry-header:after {
+    font-size: 60px;
+  }
+
+  ul.el-grid li article.post .quote-container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+  }
+
+  ul.el-grid li article.post .quote-container blockquote p {
+    font-size: 24px;
+  }
+
+  ul.el-grid li article.post .link-container {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  ul.el-grid li article.post .link-container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+  }
+
+  .medical-services-box ul > li {
+    -ms-flex-preferred-size: 33.333%;
+    -webkit-flex-basis: 33.333%;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+
+  .gg-contact-template #contact-map {
+    height: 350px;
+  }
+
+  .medical-services-box ul > li {
+    border: 0;
+  }
+
+  .doctor-single-image,
+  .doctor-single-wrapper .doctor-single-extras .doctor-contact {
+    margin-bottom: 60px;
+  }
+
+  .doctor-single-wrapper .doctor-single-extras {
+    margin-top: 60px;
+  }
+
+  .error404 h1 {
+    font-size: 60px;
+  }
+
+  article.case_studies_cpt h2.entry-title,
+  article.case_studies_cpt h1.entry-title {
+    margin-bottom: 5px;
+  }
+
+  ul.case-studies-list li .entry-header .col-md-8 {
+    border-right: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  ul.case-studies-list li .entry-header .byline {
+    padding: 0;
+  }
+
+  ul.case-studies-list li .entry-header .more-link {
+    padding: 0 0 10px 0;
+    border: 0;
+  }
+
+  .medical-service-wrapper::before {
+    -webkit-clip-path: none;
+    clip-path: none;
+    clip-path: none;
+  }
+
+  .inner-medical-service-wrapper-header.medical-service-wrapper::before,
+  ul.el-grid li.isotope-item.col-md-12 .medical-service-wrapper:before,
+  ul.el-grid li.isotope-item.col-md-6 .medical-service-wrapper:before,
+  ul.el-grid li.isotope-item.col-md-4 .medical-service-wrapper:before,
+  ul.el-grid li.isotope-item.col-md-3 .medical-service-wrapper:before {
+    -webkit-clip-path: none;
+    clip-path: none;
+    padding: 30px;
+  }
+
+  .inner-medical-service-wrapper-header.medical-service-wrapper figure.media-left,
+  ul.el-grid li.isotope-item.col-md-12 .medical-service-wrapper figure.media-left,
+  ul.el-grid li.isotope-item.col-md-6 .medical-service-wrapper figure.media-left,
+  ul.el-grid li.isotope-item.col-md-4 .medical-service-wrapper figure.media-left,
+  ul.el-grid li.isotope-item.col-md-3 .medical-service-wrapper figure.media-left {
+    display: block;
+    text-align: center;
+    margin-top: 30px
+  }
+
+  .inner-medical-service-wrapper-header.medical-service-wrapper .medical-service-meta,
+  ul.el-grid li.isotope-item.col-md-12 .medical-service-wrapper .medical-service-meta,
+  ul.el-grid li.isotope-item.col-md-6 .medical-service-wrapper .medical-service-meta,
+  ul.el-grid li.isotope-item.col-md-4 .medical-service-wrapper .medical-service-meta,
+  ul.el-grid li.isotope-item.col-md-3 .medical-service-wrapper .medical-service-meta {
+    text-align: center;
+  }
+
+  .medical-service-quick-links.btn-group-justified {
+    display: block;
+  }
+
+  .medical-service-quick-links.btn-group-justified>.btn,
+  .medical-service-quick-links.btn-group-justified>.btn-group {
+    display: block;
+    width: 100%;
+  }
+
+  body .vc-gg-blog-posts .gg_posts_grid {
+    margin-bottom: 30px;
+  }
+
+  .vc-gg-blog-posts .el-grid.gg-slick-carousel[data-visible-slides="1"] .slick-slide article {
+    padding: 100px 30px;
+    min-height: 430px;
+  }
+
+  body .vc_custom_1436959127568 {
+    margin-bottom: 60px !important;
+  }
+
+}
+
+/* Blog col-md-4 isotope fix */
+@media (min-width: 992px) {
+  .el-grid li.col-md-4 {
+    width: 33.333%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    width: 100%;
+  }
+
+  body .vc_col-xs-1, body .vc_col-sm-1, .vc_col-md-1, .vc_col-lg-1, .vc_col-xs-2, body .vc_col-sm-2, body .vc_col-md-2, body .vc_col-lg-2, body .vc_col-xs-3, body .vc_col-sm-3, body .vc_col-md-3, body .vc_col-lg-3, body .vc_col-xs-4, body .vc_col-sm-4, body .vc_col-md-4, body .vc_col-lg-4, body .vc_col-xs-5, body .vc_col-sm-5, body .vc_col-md-5, body .vc_col-lg-5, body .vc_col-xs-6, body .vc_col-sm-6, body .vc_col-md-6, body .vc_col-lg-6, body .vc_col-xs-7, body .vc_col-sm-7, body .vc_col-md-7, body .vc_col-lg-7, body .vc_col-xs-8, body .vc_col-sm-8, body .vc_col-md-8, body .vc_col-lg-8, body .vc_col-xs-9, body .vc_col-sm-9, body .vc_col-md-9, body .vc_col-lg-9, body .vc_col-xs-10, body .vc_col-sm-10, body .vc_col-md-10, body .vc_col-lg-10, body .vc_col-xs-11, body .vc_col-sm-11, body .vc_col-md-11, body .vc_col-lg-11, body .vc_col-xs-12, body .vc_col-sm-12, body .vc_col-md-12, body .vc_col-lg-12 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+  h2,
+  .h2 {
+    font-size: 24px;
+  }
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+  h4,
+  .h4 {
+    font-size: 14px;
+  }
+  h5,
+  .h5 {
+    font-size: 12px;
+  }
+  h6,
+  .h6 {
+    font-size: 11px;
+  }
+
+  .wpb_row:not(.vc_inner),
+  .vc_row.wpb_row:not(.vc_inner) {
+    padding: 45px 0;
+  }
+
+  header.site-header .call-center-block ul li {
+    border-radius: 0;
+    width: 100%; 
+  }
+
+  header.site-header .call-center-block ul li:last-child,
+  header.site-header .call-center-block ul li:first-child {
+    border-radius: 0;
+  }
+
+  body .vc_custom_1437558705492 {
+    margin-top: 0 !important;
+  }
+
+  #fullscreen-searchform input[type="search"] {
+    font-size: 18px;
+  }
+
+  header.site-header .page-meta h1 {
+    font-size: 30px;
+  }
+
+  header.site-header .page-meta {
+    padding: 45px 0;
+  }
+
+  .medical-services-box ul > li {
+    -ms-flex-preferred-size: 50%;
+    -webkit-flex-basis: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .gg-vc-quote.gg-has-image:before {
+    top: 65px;
+    left: 30px;
+  }
+
+  .gg-contact-template #contact-map {
+    height: 250px;
+  }
+
+  .doctor-wrapper figure.effect-goliath {
+    height: 270px;
+  }
+
+  ul.medical-services-letter-index li.col-md-3 {
+    width: 25%;
+  }
+
+  .gg-contact-template .contact-form-wrapper h3.entry-header,
+  .gg-contact-template .contact-details h3.entry-header {
+    font-size: 24px;
+  }
+
+  #respond {
+    margin-top: 0;
+  }
+
+  .post-social .nav {
+    border-bottom: 0;
+  }
+
+  .post-social .nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .single article.post header.entry-header .author {
+    display: block;
+  }
+
+  ul.medical-services-letter-index li a {
+    font-size: 36px;
+  }
+
+  .gg_list ul li span.service-price {
+    font-weight: bold;
+  }
+
+  body .vc_cta3-container.vc_cta3-size-lg {
+    width: 100%;
+  }
+  
+  .vc-gg-blog-posts .el-grid.gg-slick-carousel[data-visible-slides="1"] .slick-slide article {
+    padding: 60px 15px;
+    min-height: 560px;
+  }
+
+  .appointment-miniform-horizontal .appointment-miniform-wrapper .form-group-horizontal .form-group {
+    width: 100%;
+  }
+
+  .featured-icon-box:not(.style_2) .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner {
+    height: 4em;
+  }
+
+}
